@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "CC0-1.0"
+issueTrackerURL = "https://github.com/SSnowly/woolproofed/issues"
+
+[[mods]]
+modId = "woolproofed"
+version = "1.0.1"
+displayName = "Woolproofed"
+authors = "SSnowly, clamytoe"
+description = '''A mod that blocks sounds when wool is placed between the sound source and the player.'''
+logoFile = "woolproofed_icon.png"
+
+[[dependencies.woolproofed]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.0,22.0)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.woolproofed]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,1.21.2)"
+ordering = "NONE"
+side = "CLIENT"
